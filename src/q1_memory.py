@@ -7,7 +7,7 @@ from pyspark.sql.window import Window
 
 file_path = "farmers-protest-tweets-2021-2-4.json"
 
-def q1_pyspark(file_path: str) -> List[Tuple[datetime.date, str]]:
+def q1_memory(file_path: str) -> List[Tuple[datetime.date, str]]:
     # Iniciar pyspark
     spark = SparkSession.builder \
         .appName("MyApp") \

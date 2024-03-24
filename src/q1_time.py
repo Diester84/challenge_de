@@ -2,7 +2,6 @@ from typing import List, Tuple
 from datetime import datetime
 import pandas as pd
 from typing import List, Tuple
-from datetime import datetime
 
 file_path = "farmers-protest-tweets-2021-2-4.json"
 
